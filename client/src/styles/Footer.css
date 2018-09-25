@@ -1,0 +1,21 @@
+#footer {
+  background: #111111;
+  background-blend-mode: difference;
+}
+
+#footer p {
+  font-family: 'myriad pro';
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #dfdbdb;
+  margin: 20px 0px;
+}
+
+#about-statement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  max-width: 600px;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,61 @@
+#subscribe {
+  position: relative;
+  height: 100vh;
+  background: #111111;
+  z-index: 1;
+  background-blend-mode: exclusion;
+}
+
+#subscribe h2 {
+  color: #dfdbdb;
+  font-family: 'Pirulen';
+  font-size: 25px;
+  text-align: center;
+}
+
+#subscribe form {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+#subscribe p {
+  color: #dfdbdb;
+  font-family: 'myriad pro';
+  font-size: 14px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  margin-top: 20px;
+  letter-spacing: .05em;
+}
+
+#subscribe input {
+  width: 100%;
+}
+
+#mce-EMAIL {
+  border: none;
+  padding: 10px;
+  background: #dfdbdb;
+  margin-bottom: 5px;
+}
+
+#mc-embedded-subscribe {
+  cursor: pointer;
+  padding: 8px;
+  background: #6586da;
+  border: none;
+  font-family: 'myriad pro';
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color .7s, background-color .3s;
+}
+
+#mc-embedded-subscribe:hover {
+  background: #111111;
+  color: #6586da;
+}

@@ -1,0 +1,11 @@
+.splashdiv {
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+#opacity {
+  height: 100%;
+  background: black;
+}

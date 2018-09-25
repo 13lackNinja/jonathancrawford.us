@@ -1,0 +1,33 @@
+#topleft {
+  position: fixed;
+  margin: 20px;
+  z-index: 10;
+}
+
+#topleft img {
+  display: block;
+  width: 200px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.release-date {
+  width: 70px;
+}
+
+a.secondary-nav {
+  color: #dfdbdb;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'myriad-pro';
+  letter-spacing: 2px;
+  opacity: .6;
+  transition: opacity .7s;
+}
+
+a.secondary-nav:hover {
+  opacity: 1;
+}

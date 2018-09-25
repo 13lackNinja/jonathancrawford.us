@@ -1,0 +1,12 @@
+#socials {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10;
+  margin: 20px;
+}
+
+#socials img {
+  height: 30px;
+  margin-right: 10px;
+}

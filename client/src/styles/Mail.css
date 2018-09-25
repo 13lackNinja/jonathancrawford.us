@@ -1,0 +1,9 @@
+#mail {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  margin: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
