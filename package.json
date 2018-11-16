@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/13lackNinja/jonathancrawford.us#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "styled-components": "^4.1.1"
   }
 }
