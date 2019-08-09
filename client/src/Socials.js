@@ -6,6 +6,7 @@ import facebookIcon from './images/facebook.svg'
 import instagramIcon from './images/instagram.svg'
 import spotifyIcon from './images/spotify.svg'
 import youtubeIcon from './images/youtube.svg'
+import mediumIcon from './images/medium.svg'
 
 const Socials = () => (
   <div id="socials">
@@ -20,6 +21,9 @@ const Socials = () => (
     </a>
     <a href="https://www.facebook.com/jonathancrawfordmusic/">
       <img src={facebookIcon} alt="facebook.svg"/>
+    </a>
+    <a href="https://www.facebook.com/jonathancrawfordmusic/">
+      <img src={mediumIcon} alt="medium.svg"/>
     </a>
   </div>
 )

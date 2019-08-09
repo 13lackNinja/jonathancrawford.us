@@ -1,14 +1,15 @@
 {
-  "main.css": "static/css/main.144b4759.css",
-  "main.css.map": "static/css/main.144b4759.css.map",
-  "main.js": "static/js/main.3b44fad8.js",
-  "main.js.map": "static/js/main.3b44fad8.js.map",
+  "main.css": "static/css/main.3016188f.css",
+  "main.css.map": "static/css/main.3016188f.css.map",
+  "main.js": "static/js/main.85069384.js",
+  "main.js.map": "static/js/main.85069384.js.map",
   "static/media/envelope.svg": "static/media/envelope.15c28f90.svg",
   "static/media/facebook.svg": "static/media/facebook.cdd4ed2e.svg",
   "static/media/info.svg": "static/media/info.c9426208.svg",
   "static/media/instagram.svg": "static/media/instagram.cacfd784.svg",
+  "static/media/jc_background.jpg": "static/media/jc_background.ccc587ad.jpg",
   "static/media/logo.svg": "static/media/logo.4f4dbd61.svg",
-  "static/media/simple.png": "static/media/simple.d6d070d9.png",
+  "static/media/medium.svg": "static/media/medium.1c641504.svg",
   "static/media/spotify.svg": "static/media/spotify.25d3d4a6.svg",
   "static/media/youtube.svg": "static/media/youtube.bd7aeff4.svg"
 }

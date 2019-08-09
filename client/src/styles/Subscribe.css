@@ -11,6 +11,7 @@
   font-family: 'Pirulen';
   font-size: 25px;
   text-align: center;
+  letter-spacing: 0px;
 }
 
 #subscribe form {
@@ -22,17 +23,8 @@
   z-index: 10;
 }
 
-#subscribe p {
-  color: #dfdbdb;
-  font-family: 'myriad pro';
-  font-size: 14px;
-  /* text-transform: uppercase; */
-  text-align: center;
-  margin-top: 20px;
-  letter-spacing: .05em;
-}
-
 #subscribe input {
+  height: 30px;
   width: 100%;
 }
 
@@ -41,17 +33,20 @@
   padding: 10px;
   background: #dfdbdb;
   margin-bottom: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 #mc-embedded-subscribe {
   cursor: pointer;
-  padding: 8px;
   background: #6586da;
   border: none;
   font-family: 'myriad pro';
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
+  height: 30px;
   transition: color .7s, background-color .3s;
 }
 
