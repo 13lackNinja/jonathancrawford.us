@@ -1,8 +1,4 @@
 #home {
-  overflow: hidden;
-}
-
-#blackscreen {
-  height: 100%;
-  background: black;
+  position: relative;
+  background: #111111;
 }

@@ -1,0 +1,8 @@
+#middle {
+  overflow: hidden;
+}
+
+#blackscreen {
+  height: 100%;
+  background: black;
+}

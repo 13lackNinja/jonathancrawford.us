@@ -7,8 +7,8 @@
 }
 
 #subscribe h2 {
-  color: #dfdbdb;
-  font-family: 'Pirulen';
+  color: #ededed;
+  font-family: Arial;
   font-size: 25px;
   text-align: center;
   letter-spacing: 0px;
@@ -26,25 +26,25 @@
 #subscribe input {
   height: 30px;
   width: 100%;
+  font-size: 16px;
 }
 
 #mce-EMAIL {
   border: none;
   padding: 10px;
-  background: #dfdbdb;
+  background: #ededed;
   margin-bottom: 5px;
   text-align: center;
-  text-transform: uppercase;
   font-size: 14px;
 }
 
 #mc-embedded-subscribe {
   cursor: pointer;
-  background: #6586da;
+  background: rgb(221, 73, 170);
   border: none;
-  font-family: 'myriad pro';
+  font-family: 'Arial';
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   height: 30px;
   transition: color .7s, background-color .3s;

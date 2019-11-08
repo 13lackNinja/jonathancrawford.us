@@ -1,23 +1,27 @@
-import React from 'react'
+import React, { Component } from 'react';
+import Nav from './Nav';
+import Middle from './Middle';
+import Footer from './Footer';
+import Subscribe from './Subscribe';
 
-import './styles/splashdiv.css'
-import './styles/Home.css'
+import './styles/Home.css';
 
-import splashImage from './images/jc_background.jpg'
+class Home extends Component {
+  componentDidMount() {
+    const middle = document.getElementById('middle');
+    middle.scrollIntoView();
+  }
 
-const Home = (props) => (
-  <div
-    id="home"
-    className="splashdiv"
-    style={{ 'backgroundImage': `url(${splashImage})` }}
-  >
-    <div
-      id='opacity'
-      style={{
-        'opacity': '.2',
-        'background': 'black'
-      }}></div>
-  </div>
-)
+  render() {
+    return (
+      <div id="home">
+        <Nav/>
+        <Subscribe/>
+        <Middle/>
+        <Footer/>
+      </div>
+    )
+  }
+}
 
-export default Home
+export default Home;

@@ -7,10 +7,10 @@ import logoImage from './images/logo.svg'
 const TopLeft = () => {
   document.addEventListener('DOMContentLoaded', () => {
     const homeLogo = document.getElementById('home-logo');
-    const home = document.getElementById('home');
+    const middle = document.getElementById('middle');
 
     homeLogo.addEventListener('click', () => {
-      home.scrollIntoView({ behavior: 'smooth' });
+      middle.scrollIntoView({ behavior: 'smooth' });
     });
   });
 
